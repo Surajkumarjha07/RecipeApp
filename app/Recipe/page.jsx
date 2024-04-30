@@ -43,8 +43,8 @@ export default function page() {
 
             recipeData.results.map((recipe, index) => (
               <div key={index} className="p-4 lg:w-1/2 mx-auto mb-7">
-                <div className="h-auto bg-gray-100 bg-opacity-95 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                  <img src={recipe.image} alt="Sorry" className="w-32 h-24 rounded-xl m-auto mb-4" />
+                <div className="h-auto bg-gray-100 bg-opacity-95 px-8 pt-16 pb-24 rounded-xl overflow-hidden text-center relative">
+                  <img src={recipe.image} alt="Sorry" className="w-96 h-60 rounded-xl m-auto mb-4" />
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-700 mb-3">{recipe.title}</h1>
 
                 <div className='flex justify-between m-2 font-semibold text-lg text-gray-700 '>
